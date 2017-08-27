@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC330
+#  Project p1: WordNet
+
+courseName=CMSC330
+semester=201701
+projectNumber=p1
+courseKey=4b62f9f42de98f3c
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2017
+submitURL=https://submit.cs.umd.edu:443/spring2017/eclipse/SubmitProjectViaEclipse
