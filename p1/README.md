@@ -1,10 +1,8 @@
 # Project 1: WordNet
-CMSC 330, Spring 2017  
-Due Monday, February 13th 2017
+CMSC 330, Fall 2017  
+Due Thursday, September 14th.
 
-Pair Project
-------------
-This is a pair project. You may work on this with another student from any section of CMSC330. Be sure you include both your name and your partner's name in the solution that you submit.
+**This is an individual assignment. You must work on this project alone.**
 
 Introduction
 ------------
