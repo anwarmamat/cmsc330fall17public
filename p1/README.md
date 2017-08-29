@@ -1,6 +1,6 @@
 # Project 1: WordNet
 CMSC 330, Fall 2017  
-Due Thursday, September 14th.
+Due Monday, September 11th (Late Tuesday, September 12th).
 
 **This is an individual assignment. You must work on this project alone.**
 
