@@ -5,11 +5,13 @@ class Synsets
     end
 
     def load(synsets_file)
-        raise Exception, "Not implemented"
+        f = File.open(synsets_file, "r")
     end
 
     def addSet(synset_id, nouns)
-        raise Exception, "Not implemented"
+      if(( synset_id < 0 || nouns.length == 0   )) #or already defined
+        @synset_id = synset_id
+        @nouns = nouns
     end
 
     def lookup(synset_id)
