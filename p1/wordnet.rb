@@ -12,6 +12,9 @@ class Synsets
           i = 1
           f.each_line do
             if(f.match(/#{pattern}/))
+              # split into stuff after id
+              # split into avlues, seperated by ,
+              synTemp.[f[/\d+]] = []
 
 
 
