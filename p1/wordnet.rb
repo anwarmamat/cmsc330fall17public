@@ -2,10 +2,21 @@ require_relative "graph.rb"
 
 class Synsets
     def initialize
+      syn = Hash.new
     end
 
     def load(synsets_file)
-        f = File.open(synsets_file, "r")
+      pattern = "(id: )\d+\s(synset: )\S+"
+      synTemp = Hash.new
+        File.open(synsets_file, "r") do |f|
+          i = 1
+          f.each_line do
+            if(f.match(/#{pattern}/))
+
+
+
+
+
     end
 
     def addSet(synset_id, nouns)
