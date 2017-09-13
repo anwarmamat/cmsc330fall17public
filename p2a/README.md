@@ -1,10 +1,10 @@
 # Project 2A: OCaml Warmup
-CMSC 330, Spring 2017  
-Due Monday, February 20th 2017 <!--TODO Insert Actual Due Date-->
+CMSC 330, Fall 2017  
+Due Friday, September 22nd, 2017
 
 Ground Rules
 ------------
-Unlike project 1, this is NOT a pair project. You must work on this project alone as with most other CS projects. See the Academic Integrity section for more information.
+This is NOT a pair project. You must work on this project alone as with most other CS projects. See the Academic Integrity section for more information.
 
 In your code, you may only use library functions found in the [`Pervasives` module][pervasives doc]. You may not use any imperative structures of OCaml such as references.
 
