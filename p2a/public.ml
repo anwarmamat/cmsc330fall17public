@@ -78,7 +78,7 @@ let suite =
     "second_element" >:: test_second_element;
     "sum_first_three" >:: test_sum_first_three;
 
-    "prod" >:: test_prod;
+    "unzip" >:: test_unzip;
     "get_val" >:: test_get_val;
     "get_vals" >:: test_get_vals;
     "list_swap_val" >:: test_list_swap_val;
