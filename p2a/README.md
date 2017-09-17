@@ -6,7 +6,7 @@ Ground Rules
 ------------
 This is NOT a pair project. You must work on this project alone as with most other CS projects. See the Academic Integrity section for more information.
 
-In your code, you may only use library functions found in the [`Pervasives` module][pervasives doc]. You may not use any imperative structures of OCaml such as references.
+In your code, you may only use library functions found in the [`Pervasives` module][pervasives doc]. You may not use any imperative structures of OCaml such as references. The @ operator is NOT allowed.
 
 Introduction
 ------------
