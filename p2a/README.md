@@ -208,7 +208,7 @@ eq (remove 3 (insert 5 (insert 3 []))) (insert 5 []) = true
 - **Examples:**
 ```
 eq (union [] (insert 2 (insert 3 []))) (insert 3 (insert 2 [])) = true
-eq (union (insert 5 (insert 2 [])) (insert 2 (insert 5 (insert 3 []))) (insert 3 (insert 2 (insert 5 []))) = true
+eq (union (insert 5 (insert 2 [])) (insert 2 (insert 5 (insert 3 [])))) (insert 3 (insert 2 (insert 5 []))) = true
 eq (union (insert 2 (insert 7 [])) (insert 3 (insert 5 []))) (insert 5 (insert 3 (insert 7 (insert 2 [])))) = true
 ```
 
@@ -219,7 +219,7 @@ eq (union (insert 2 (insert 7 [])) (insert 3 (insert 5 []))) (insert 5 (insert 3
 ```
 eq (intersection (insert 3 (insert 5 (insert 2 []))) []) [] = true
 eq (intersection (insert 5 (insert 7 (insert 3 (insert 2 [])))) (insert 6 (insert 4 []))) [] = true
-eq (intersection (insert 3 (insert 5 (insert 2 []))) (insert 4 (insert 3 (insert 5 []))) (insert 5 (insert 3 [])) = true
+eq (intersection (insert 3 (insert 5 (insert 2 []))) (insert 4 (insert 3 (insert 5 [])))) (insert 5 (insert 3 [])) = true
 ```
 
 #### subset a b
