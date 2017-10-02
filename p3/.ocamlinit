@@ -1,0 +1,4 @@
+#directory "_build";;
+#load "str.cma"
+#load "nfa.cmo";;
+#load "regexp.cmo";;
