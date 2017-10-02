@@ -12,9 +12,11 @@ let next = get_next_gen ()
 let int_list_to_int =
   let next' = get_next_gen () in
   let tbl = Hashtbl.create 10 in
+  let compare a b = if a < b then -1 else if a = b then 0 else 1 in
   (fun lst ->
-    if Hashtbl.mem tbl lst then Hashtbl.find tbl lst
-    else let n = next' () in Hashtbl.add tbl lst n; n)
+      let slst = List.sort_uniq compare lst in
+      if Hashtbl.mem tbl slst then Hashtbl.find tbl slst
+    else let n = next' () in Hashtbl.add tbl slst n; n)
 
 (* YOUR CODE BEGINS HERE *)
 
@@ -25,6 +27,8 @@ let get_finals m = failwith "Unimplemented"
 let get_transitions m = failwith "Unimplemented"
 
 let make_nfa ss fs ts = failwith "Unimplemented"
+
+let nfa_to_dfa m = failwith "Unimplemented" 
 
 let e_closure m l = failwith "Unimplemented"
 
