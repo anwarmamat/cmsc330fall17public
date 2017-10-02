@@ -270,13 +270,13 @@ Also, note that all the binary operators are **right associative**.
 
 Project Submission
 ------------------
-You should submit a file `nfa.ml` containing your solution. You may submit other files, but they will be ignored during grading. We will run your solution as individual OUnit tests just as in the provided public test file.
+You should submit the files `nfa.ml` and `regexp.ml` containing your solution. You may submit other files, but they will be ignored during grading. We will run your solution as individual OUnit tests just as in the provided public test file.
 
 Be sure to follow the project description exactly! Your solution will be graded automatically, so any deviation from the specification will result in lost points.
 
 You can submit your project in two ways:
 
-* Submit your nfa.ml file directly to the [submit server][submit server] by clicking on the submit link in the column next to the project number.Then, use the submit dialog to submit your nfa.ml file directly. 
+* Submit your files directly to the [submit server][submit server] by clicking on the submit link in the column next to the project number.Then, use the submit dialog to submit your nfa.ml file directly. 
 Select your file using the "Browse" button, then press the "Submit project!" button. You do not need to put it in a zip file.
 ![Upload your file][web upload example]
 * Submit directly by executing a the submission script on a computer with Java and network access. Included in this project are the submission scripts and related files listed under Project Files. These files should be in the directory containing your project. From there you can either execute `ruby submit.rb` or run the command `java -jar submit.jar` directly (this is all submit.rb does).
