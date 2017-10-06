@@ -111,7 +111,7 @@ get_start m = 0 (* where m is the nfa created above *)
 * **Description:** This function takes as input an NFA and returns the state numbers of all final states.
 * **Examples:**
 ```
-get_start m = [2] (* where m is the nfa created above *)
+get_finals m = [2] (* where m is the nfa created above *)
 ```
 
 **get_transitions m**
