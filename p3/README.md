@@ -1,6 +1,6 @@
 # Project 3: Regular Expression Interpreter
 CMSC 330, Fall 2017  
-Due October 23rd, 2017 at 11:59 PM
+Due October <s>23rd</s> 26th, 2017 at 11:59 PM
 
 Ground Rules and Extra Info
 ---------------------------
