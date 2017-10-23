@@ -10,7 +10,7 @@ In your code, you may use any non-imperative standard library functions (with th
 
 Introduction
 ------------
-In this project, you will implement the lexer and parser for the SmallC language. This parser will be capable of parsing expressions, statements, and full programs, thus making it a complete replacement for the parser we supplied for the interpreter project. The parser will operate on a flat `token list` assembled by your lexer and create a correct `stmt` and/or `expr`  corresponding to the input. When you're done, you will have written the complete pipeline to turn a text file into a running SmallC program!
+In this project, you will implement the lexer and parser for the SmallC language. This parser will be capable of parsing expressions, statements, and full programs. The parser will operate on a flat `token list` assembled by your lexer and create a correct `stmt` and/or `expr`  corresponding to the input. When you're done, you will have written the complete pipeline to turn a text file into a running SmallC program!
 
 The only requirement for error handling is that input that cannot be lexed/parsed according to the provided rules should raise an `InvalidInputException`. We recommend adding reasonable error messages to these exceptions, as it will make debugging during development infinitely easier. As you test your program, you may input an invalid program by mistake or perform an incorrect parse that leads to a dead end and a silent error, but adding meaningful error messages to your program will help you get past these issues.
 
@@ -24,7 +24,7 @@ To begin this project, you will need to commit any uncommitted changes to your l
   - **lexer.ml**: This file is the sole place you will implement lexer code for the first half of this project.
   - **parser.ml**: This file is the sole place you will implement parser code for the second half of this project.
 - Provided OCaml Files (No need to edit, changes will be overwritten!)
-  - **interface.ml**: This driver can be used to output your lexer/parser results on standard input or supplied files. It's a lot like the `smallc.ml` file in project 3, but for the frontend (parser/lexer) rather than the backend (interpreter).
+  - **interface.ml**: This driver can be used to output your lexer/parser results on standard input or supplied files.
   - **public.ml** and **public_inputs/**: The public test driver file and the SmallC input files to go with it, respectively.
   - **smallCTypes.ml**: This file contains all type definitions used in this project.
   - **utils.ml** and **testUtils.ml**: These files contain functions that we have written for you and for us that aid in testing and debugging. The small part of **utils.ml** that concerns you in implementing this project is called out very explicitly when it is needed later in the document, and otherwise you should not need to look at either of these files.
@@ -116,7 +116,7 @@ We provide an ambiguous CFG for the language that you must convert to be right-r
 
 Parser Part 1: parse_expr 
 ------------------
-Expressions are a self-contained subset of the SmallC grammar. As such, implementing them first will allow us to build the rest of the language on top of them later. Recall the `expr` type from project 3:
+Expressions are a self-contained subset of the SmallC grammar. As such, implementing them first will allow us to build the rest of the language on top of them later. The following is the expression type:
 ```
 type expr =
   | Id of string
@@ -177,7 +177,7 @@ Plus(
 
 Parser Part 2: parse_stmt
 ------------------
-The next step to parsing is to build statements up around your expression parser. When parsing, a sequence of statements should be terminated as a `NoOp`, which you will remember as a do-nothing instruction from the interpreter. Recall the `stmt` type:
+The next step to parsing is to build statements up around your expression parser. When parsing, a sequence of statements should be terminated as a `NoOp`, which is a do-nothing operator. Here is the `stmt` type:
 
 ```
 type stmt =
