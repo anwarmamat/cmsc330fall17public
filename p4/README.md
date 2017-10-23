@@ -4,7 +4,7 @@ Due November 6th, 2017
 
 Ground Rules and Extra Info
 ---------------------------
-This **is NOT** a pair project.
+This **is NOT** a pair project. You must work on it alone.
 
 In your code, you may use any non-imperative standard library functions (with the exception of printing), but the ones that will be useful to you will be found in the [`Pervasives` module][pervasives doc] and the [`List` module][list doc]. You may choose to use imperative OCaml, but are not required to.
 
