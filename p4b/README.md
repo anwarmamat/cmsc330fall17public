@@ -80,7 +80,7 @@ Integer literals evaluate to a `Val_Int` of the same value.
 
 #### Bool
 
-Boolean literals evaluate to a `Val_Bool` of the same value.
+Boolean literals evaluate to a`Val_Bool` of the same value.
 
 #### Id
 
