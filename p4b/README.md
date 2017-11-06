@@ -1,4 +1,4 @@
-# Project 3: SmallC Interpreter
+# Project 4b: SmallC Interpreter
 CMSC 330, Fall 2017
 Due November 13th, 2017
 
