@@ -1,6 +1,0 @@
-#directory "_build";;
-#load "str.cma";;
-#load "smallCTypes.cmo";;
-#load "lexer.cmo";;
-#load "utils.cmo";;
-#load "parser.cmo";;
