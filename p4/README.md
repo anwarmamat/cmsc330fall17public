@@ -1,6 +1,6 @@
 # Project 4: SmallC Parser
 CMSC 330, Fall 2017
-Due November 6th, 2017
+Due November <s>6th</s> 7th, 2017
 
 Ground Rules and Extra Info
 ---------------------------
