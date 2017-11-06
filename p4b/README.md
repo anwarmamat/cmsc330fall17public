@@ -14,7 +14,7 @@ Introduction
 ------------
 Up to this point your exposure to OCaml has been in an effort to familiarize you with the language, and you should now have a basic understanding of OCaml's deeply integrated typing and pattern systems. It's because of these elegant constructs that OCaml has gained popularity as programming language implementation language. Many compilers classes (including CMSC430 at UMD) use OCaml. Facebook uses OCaml heavily, too, e.g., for [Hack][hack github], its PHP-based web language.
 
-In this project, you will implement a small subset of an interpreter and typechecker for SmallC, a small C-like language. The language supports variables, `int` and `bool` types, equality and comparison operations, math and boolean operations, control flow, and printing, all while maintaining static type-safety and being Turing complete!
+In this project, you will implement a small subset of an interpreter for SmallC, a small C-like language. The language supports variables, `int` and `bool` types, equality and comparison operations, math and boolean operations, control flow, and printing, all while maintaining static type-safety and being Turing complete!
 
 The language consists of expressions from the `expr` type and statements from the `stmt` type. These algebraic types can be used to represent the full space of properly formed SmallC programs. Their definitions are found in the `types.ml` file. This file should be a constant reference to the data types involved in successfully working with SmallC.
 
