@@ -51,7 +51,7 @@ If you would like more detailed information about what your code produced, runni
 
 The `studentTests.ml` file compiles into the `student` binary, which behaves just like the `public` binary except serves as a dedicated space for you to write your own test cases. We offer a few small notes on how to do this, however full information on OUnit can be found online and our testing tools can be seen in full use in the `public.ml` test cases, and then emulated. You are **NOT** required to use this file at all, and if you don't touch it, it won't affect your code at all. If you want more information about writing student tests within our framework, post on Piazza.
 
-In order to compile against the provided parser and lexer, you must be on OCaml version 4.04.0.
+** In order to compile against the provided parser and lexer, you must be on OCaml version 4.04.0 **.
 
 The Evaluator
 -------------
