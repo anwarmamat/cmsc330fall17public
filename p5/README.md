@@ -3,7 +3,7 @@ CMSC 330, Fall 2017 (Due December 4th, 2017)
 
 Ground Rules
 ------------
-This **is** a pair project. You may work with one other person, but make sure you both make your own submissions, as you will still be graded independently.
+This **is NOT** a pair project. You must work on this project alone.
 
 1. You can use any built-in [arithmetic](http://www.swi-prolog.org/pldoc/man?section=arith) or [list](http://www.swi-prolog.org/pldoc/man?section=builtinlist) predicate, in addition to any predicate defined [`library(lists)`](http://www.swi-prolog.org/pldoc/man?section=lists). Do not use additional libraries or syntactic extensions (unless given permission by an instructor, which is unlikely).
 
