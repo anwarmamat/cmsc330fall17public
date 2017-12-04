@@ -1,0 +1,19 @@
+<div class="grid">
+  <section class="user">
+    <img class="avatar" src="/avatars/<%= prefs[:avatar] %>" />
+    <h2> <%= params[:user] %> </h2>
+    <%= prefs[:description] %>
+  </section>
+
+  <section class="epsilons">
+    <% epsilons.each do |epsilon| %>
+      <div class="epsilon">
+        <img class="epsilon-avatar" src="/avatars/<%= epsilon[:avatar] %>" />
+        <div class="epsilon-body">
+          <a href="/user/<%= epsilon[:user] %>"><%= epsilon[:user] %></a> ◇ <%= epsilon[:date] %>
+          <p> <%= epsilon[:content] %> </p>
+        </div>
+      </div>
+    <% end %>
+  </section>
+</div>
