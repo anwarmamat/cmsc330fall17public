@@ -92,7 +92,7 @@ module Access
 
 	# authenticate : String, String -> (String or NilClass)
 	# If credentials are valid, assigns session identifier to user
-	# and returns identifier, otherwise returns false.
+	# and returns identifier, otherwise returns nil.
 	def authenticate(user, passwd)
 		assign_session user if not (not_found user)
 	end
