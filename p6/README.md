@@ -14,7 +14,7 @@ Running the Project
 
 ### Locally
 
-We **highly** recommend running the application locally. Resort to Grace if you can't get it running. Setup early so you can go to office hours in case you get stuck. Don't wait until the last minute to install.
+**We highly recommend running the application locally. Resort to Grace only if you can't get it running locally.** Setup early so you can go to office hours in case you get stuck. Don't wait until the last minute to install.
 
 - Run `bundle install` in the project root directory. If you get a permissions error run with `sudo`.
 - Run `ruby main.rb`.
@@ -26,11 +26,13 @@ Remember to restart `main.rb` after changing `controller.rb`. Depending on your 
 - If you don't have SQLite3, use `sudo apt-get install sqlite3`.
 - If you're getting an issue where Ruby headers cannot be found run `sudo apt-get install ruby-dev`.
 - If you're getting an issue where `sqlite.h` is missing run `sudo apt-get install libsqlite3-dev`.
+- If bundler can't continue when installing SQLite3 and you're using macOS, upgrade your version of Ruby (we recommend using [RVM](https://rvm.io/)).
+- If bundler can't continue when installing SQLite3 and you're using Linux, try `sudo apt-get install build-essential patch` followed by `sudo apt-get install ruby-dev zlib1g-dev liblzma-dev`.
 - If you're running on Cloud9, run `ruby main.rb -o $IP` instead of just `ruby main.rb`.
 
 ### Grace
 
-*N.B. If you're using macOS, run the project locally. Grace likely won't work.*
+**N.B. If you're using macOS, run the project locally. Grace won't work. If Grace is having issues, we recommend using the [Linux VM](http://www.cs.umd.edu/class/fall2017/cmsc330/#resources).**
 
 - Log into Grace using `ssh -Y <username>@grace.umd.edu`.
 - Run `bundle install --path ~/.gem` in the project root directory.
